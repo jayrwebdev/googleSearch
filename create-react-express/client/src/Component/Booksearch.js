@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
-import Jumbotron from './Jumbotron.js.js';
-import SearchBar from './Searchsection.js.js'
+import Jumbotron from './Jumbotron.js';
+import SearchBar from './Searchsection.js'
 class Booksearch extends Component {
 
   render() {
