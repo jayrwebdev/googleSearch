@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/googlebooks', {
   useNewUrlParser: true,
   useUnifiedTopology: true
-});
+})
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
