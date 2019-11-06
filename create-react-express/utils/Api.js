@@ -1,5 +1,5 @@
 import axios from 'axios';
-import db from '../../../models';
+import db from '../models';
 
 export default  {
     getBooks : () => {

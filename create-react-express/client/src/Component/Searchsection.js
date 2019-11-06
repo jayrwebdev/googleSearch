@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Holder from './SearchHandler'
 import Searchbar from './Searchbar'
-import API from '../utils/Api'
+ 
+
 
 class SearchBar extends Component {
     state = {
@@ -18,7 +19,7 @@ class SearchBar extends Component {
 
     }
     getBooks = (query) => {
-        API.requestBook(query)
+        
     }
 
     render() {
